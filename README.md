@@ -171,9 +171,9 @@ AgenTrust is an independent open-source project. No company funds, owns or direc
 
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Evaluation layer for task prompts that records each attempt for verification: every candidate runs in a private fresh-repository workspace behind an initial workspace receipt plus a deterministic post-execution manifest covering Git HEAD/tree/refs/index/status and every worktree file; recovery reuses hash-verified terminals, and retained state is rejected unless the complete chain from state, plan, and attempt through receipt, manifest, terminal, and evidence forms one exact linkage. Deterministic and LLM-judge evaluations append immutable records with evidence and evaluator provenance hashes; running a plan grants no production or external authority. MIT; CLI `yylo-benchmark` (also delegated unchanged by `yy benchmark`) and library on npm as @yylo/benchmark; part of the YYLO suite alongside the YYLO CLI orchestrator.
 
-<a id="observability--monitoring"></a>
-
 - [claude-cowork-audit-record](https://github.com/ArtemShatokhin/claude-cowork-audit-record) - Dated record of what Anthropic's own documentation says about audit, export and approval for Claude Cowork on Team and Enterprise plans: Compliance API coverage and its 30-day window, local session history with no central deletion, OpenTelemetry that is explicitly not audit logging, and the two approval settings with their defaults. Eight sentences quoted verbatim with source and date, plus a standard-library script that re-fetches the page and exits non-zero when a quote disappears, so the record cannot quietly go stale. MIT.
+
+<a id="observability--monitoring"></a>
 
 ## Observability & Monitoring
 
